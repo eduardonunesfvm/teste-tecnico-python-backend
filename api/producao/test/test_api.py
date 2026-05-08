@@ -4,7 +4,7 @@ from api.main import app
 client = TestClient(app)
 
 
-def test_registrar_foco_1():
+def test_registrar_foco_certo():
     response = client.post(
         "/producao/registrar_foco",
         json={
@@ -18,7 +18,7 @@ def test_registrar_foco_1():
     assert response.status_code == 201
 
 
-def test_registrar_foco():
+def test_registrar_foco_nivel_invalido():
     response = client.post(
         "/producao/registrar_foco",
         json={

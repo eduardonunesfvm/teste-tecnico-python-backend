@@ -278,3 +278,15 @@ Ao finalizar o projeto, usei a IA para confirmar se o que havia entregue estava 
 
 Antes de commitar o `Dockerfile`, questionei se incluí-lo sem um `docker-compose` seria uma decisão válida ou excessiva. A IA confirmou que um Dockerfile simples agrega valor sem parecer exagero, pois resolve padronização de ambiente, facilidade de execução e demonstra noção de containerização, decisão que mantive.
 
+**5. Auxílio na criação dos testes automatizados**
+
+Também utilizei IA como apoio para aprender e estruturar os testes automatizados com `pytest` e `TestClient` do FastAPI, pois ainda estou aprofundando meus conhecimentos em testes backend.
+
+A IA foi utilizada para esclarecer:
+- estrutura básica de arquivos de teste;
+- funcionamento do `TestClient`;
+- diferença entre testes manuais via Swagger e testes automatizados;
+- interpretação de erros relacionados ao `pytest` e imports do projeto.
+
+Os testes foram adaptados e compreendidos antes de serem aplicados ao projeto.
+
