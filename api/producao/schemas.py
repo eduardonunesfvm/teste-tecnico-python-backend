@@ -15,8 +15,3 @@ class RegistroResponse(BaseModel):
 
     model_config = ConfigDict(from_attributes=True)
     
-# class DiagnosticoResponse(BaseModel):
-#     media_foco: float
-#     tempo_total_minutos: int
-#     total_registros: int
-#     mensagem: str
